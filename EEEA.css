@@ -1,0 +1,76 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.empty
+{
+    width: 100%;
+    height: 10px;
+    background-color: #0350ac;
+}
+
+
+.header
+{
+    background-color:#f4f5f5;
+    height: 90px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner
+{
+    background-image: url('DreamP/COLLEGE\ PIC.jpg');
+    width:100%;
+    height:500px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttons_overlay
+{
+    background-color: #3372c0;
+    height:35px;
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons
+{
+    height: 89%;
+    width:95%;
+    background-color: #fafbfb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons_container
+{
+    color: #0350ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+}
+.buttons_container:hover
+{
+    color: yellow;
+    background-color: #1c6fd4;
+    cursor: pointer;
+}
